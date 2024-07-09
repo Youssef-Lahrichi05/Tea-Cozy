@@ -1,0 +1,92 @@
+html {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0,9;
+    text-align: center;
+}
+.header {
+    display: flex;
+    height:69px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    position: sticky;
+}
+.header img {
+    height: 50px;
+    margin-left: 10px;
+}
+.header li {
+    display: inline;
+    text-decoration: underline;
+
+}
+.header li:hover {
+    cursor:pointer;
+    text-decoration: none;
+    color: red;
+}
+.description {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1eswho9*_gcl_aw*R0NMLjE3MjAxODgwNDguQ2owS0NRandzNTYwQmhDdUFSSXNBSE1xRTBHdElmcFdDSEQyOHI0alAxLTJ0ZzBnVkNDQXhoT3k5VXctY3d3OV9pcHQ1WjJBTUJhc1ZfQWFBdk1aRUFMd193Y0I.*_gcl_au*MTY3MTk2ODQyNi4xNzIwMTg0MzQx*_ga*OTA3MTM1MTAyNC4xNzIwMTg0MzM5*_ga_3LRZM6TM9L*MTcyMDUyODY1OS4xMC4xLjE3MjA1Mjg2OTkuMjAuMC4w');
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.text {
+    background-color: black;
+    width: 1200px;
+
+}
+.T-O-M h2, .T-O-M h4 {
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+.img-description {
+    height: 300px;
+}
+.imgg {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.location {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.location h2 {
+    text-align: center;
+}
+.downtown, .east, .oakola {
+    background-color: black;
+    width: 300px;
+    margin-right:40px;
+    margin-left: 30px;
+    height: 250px;
+}
+.name {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*ekohp9*_gcl_aw*R0NMLjE3MjAxODgwNDguQ2owS0NRandzNTYwQmhDdUFSSXNBSE1xRTBHdElmcFdDSEQyOHI0alAxLTJ0ZzBnVkNDQXhoT3k5VXctY3d3OV9pcHQ1WjJBTUJhc1ZfQWFBdk1aRUFMd193Y0I.*_gcl_au*MTY3MTk2ODQyNi4xNzIwMTg0MzQx*_ga*OTA3MTM1MTAyNC4xNzIwMTg0MzM5*_ga_3LRZM6TM9L*MTcyMDUyODY1OS4xMC4xLjE3MjA1Mjg2OTkuMjAuMC4w');
+    height: 500px;
+    margin: 0 auto;
+    width: 90%;
+}
+.about {
+    height: 200px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.copyright  {
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+}
